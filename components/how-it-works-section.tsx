@@ -39,9 +39,7 @@ export function HowItWorksSection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
-          {/* Connection lines */}
           <div className="hidden lg:block absolute top-20 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
-
           {steps.map((step, index) => (
             <div key={index} className="relative">
               <div className="bg-card border border-border rounded-xl p-6 text-center hover:border-primary/50 transition-all duration-300">

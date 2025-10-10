@@ -13,10 +13,9 @@ export function ExplanationSection() {
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Nuestra plataforma traduce las señales de tus cultivos en información útil y accionable, permitiéndote
-              tomar decisiones informadas para proteger tus uvas, cerezos y duraznos y maximizar tu producción.
+              tomar decisiones informadas para proteger tus cultivos y maximizar tu producción.
             </p>
           </div>
-
           <div className="relative">
             <div className="bg-card border border-border rounded-2xl p-8 shadow-2xl">
               <img
@@ -25,7 +24,6 @@ export function ExplanationSection() {
                 className="w-full rounded-lg"
               />
             </div>
-            {/* Floating element */}
             <div className="absolute -top-6 -right-6 bg-primary text-primary-foreground rounded-full p-4 shadow-lg">
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path

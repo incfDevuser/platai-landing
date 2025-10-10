@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 export function FinalCTASection() {
   return (
     <section className="py-24 relative overflow-hidden">
-      {/* Animated particles background */}
       <div className="absolute inset-0 bg-secondary">
         <div className="absolute inset-0 opacity-30">
           {[...Array(20)].map((_, i) => (
@@ -40,23 +39,7 @@ export function FinalCTASection() {
               Contáctanos
             </Button>
           </div>
-
-          {/* Powered by AI badge */}
           <div className="mt-16 inline-flex items-center gap-6 bg-card/50 backdrop-blur-sm border border-border/50 rounded-full px-8 py-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                  />
-                </svg>
-              </div>
-              <span className="text-sm font-medium">Sensores IoT</span>
-            </div>
-
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
                 <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">

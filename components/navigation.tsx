@@ -20,9 +20,6 @@ export function Navigation() {
           <a href="#como-funciona" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Cómo funciona
           </a>
-          <a href="#precios" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Precios
-          </a>
         </div>
 
         <Button size="sm">Solicitar demo</Button>
