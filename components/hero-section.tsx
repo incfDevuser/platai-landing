@@ -29,7 +29,8 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty">
-          IA que detecta, predice y recomienda acciones para mantener tus uvas, cerezos y duraznos sanos.
+          IA que detecta enfermedades, predice problemas y recomienda acciones para mantener tus uvas, cerezos y
+          duraznos sanos.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

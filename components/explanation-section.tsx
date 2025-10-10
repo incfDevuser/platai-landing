@@ -8,18 +8,22 @@ export function ExplanationSection() {
               ¿Qué es <span className="text-primary">PlantAI</span>?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              PlantAI combina sensores inteligentes, visión por computadora y modelos predictivos para detectar
-              enfermedades y estrés vegetal antes de que sean visibles al ojo humano.
+              PlantAI combina visión por computadora y modelos predictivos para detectar enfermedades y estrés vegetal
+              mediante escaneo móvil de tus cultivos.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nuestra plataforma traduce las señales de tus plantas en información útil y accionable, permitiéndote
-              tomar decisiones informadas para proteger tus cultivos y maximizar tu producción.
+              Nuestra plataforma traduce las señales de tus cultivos en información útil y accionable, permitiéndote
+              tomar decisiones informadas para proteger tus uvas, cerezos y duraznos y maximizar tu producción.
             </p>
           </div>
 
           <div className="relative">
             <div className="bg-card border border-border rounded-2xl p-8 shadow-2xl">
-              <img src="/mobile-app-dashboard-showing-plant-health-monitori.jpg" alt="PlantAI App Dashboard" className="w-full rounded-lg" />
+              <img
+                src="/mobile-app-dashboard-showing-plant-health-monitori.jpg"
+                alt="PlantAI App Dashboard"
+                className="w-full rounded-lg"
+              />
             </div>
             {/* Floating element */}
             <div className="absolute -top-6 -right-6 bg-primary text-primary-foreground rounded-full p-4 shadow-lg">

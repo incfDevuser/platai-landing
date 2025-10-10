@@ -1,29 +1,29 @@
-import { Download, Scan, Brain, Zap } from "lucide-react"
+import { Map, Smartphone, Bell, Sparkles } from "lucide-react"
 
 const steps = [
   {
-    icon: Download,
+    icon: Map,
     number: "01",
-    title: "Instala sensores PlantAI™",
-    description: "Colocamos sensores inteligentes en tu campo que monitorean constantemente.",
+    title: "Crea tu campo digital",
+    description: "Define cuarteles y cuadrillas para organizar tu campo de forma digital.",
   },
   {
-    icon: Scan,
+    icon: Smartphone,
     number: "02",
-    title: "Escanea tus plantas",
-    description: "Captura imágenes con tu smartphone o usa nuestras cámaras automáticas.",
+    title: "Escanea con tu celular",
+    description: "Cuando veas un fruto o hoja en estado dudoso, escanéalo con la app.",
   },
   {
-    icon: Brain,
+    icon: Bell,
     number: "03",
     title: "Recibe diagnóstico IA",
-    description: "Nuestra IA analiza los datos y detecta problemas antes de que sean visibles.",
+    description: "El admin recibe la alerta con el diagnóstico y puede confirmarlo o descartarlo.",
   },
   {
-    icon: Zap,
+    icon: Sparkles,
     number: "04",
-    title: "Actúa con recomendaciones inteligentes",
-    description: "Recibe alertas y recomendaciones específicas para cada situación.",
+    title: "Obtén recomendaciones",
+    description: "Si se confirma, la IA recomienda la acción fitosanitaria específica.",
   },
 ]
 
