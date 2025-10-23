@@ -1,29 +1,29 @@
-import { Map, Smartphone, Bell, Sparkles } from "lucide-react"
+import { Smartphone, MapPin, CloudRain, ListChecks } from "lucide-react"
 
 const steps = [
   {
-    icon: Map,
-    number: "01",
-    title: "Crea tu campo digital",
-    description: "Define cuarteles y cuadrillas para organizar tu campo de forma digital.",
-  },
-  {
     icon: Smartphone,
+    number: "01",
+    title: "Escanea con el celular",
+    description: "Cuadrilla detecta un fruto/hoja sospechoso → Escanea con app móvil → IA analiza y entrega diagnóstico + severidad.",
+  },
+  {
+    icon: MapPin,
     number: "02",
-    title: "Escanea con tu celular",
-    description: "Cuando veas un fruto o hoja en estado dudoso, escanéalo con la app.",
+    title: "GPS + Foto del punto crítico",
+    description: "Cada alerta se registra con foto + ubicación GPS exacta. Jefatura ve en mapa dónde está el problema real.",
   },
   {
-    icon: Bell,
+    icon: CloudRain,
     number: "03",
-    title: "Recibe diagnóstico IA",
-    description: "El admin recibe la alerta con el diagnóstico y puede confirmarlo o descartarlo.",
+    title: "Riego calculado con clima real",
+    description: "Conectado a estación meteorológica → calcula cuándo y cuántas horas regar según especie, variedad y clima.",
   },
   {
-    icon: Sparkles,
+    icon: ListChecks,
     number: "04",
-    title: "Obtén recomendaciones",
-    description: "Si se confirma, la IA recomienda la acción fitosanitaria específica.",
+    title: "Asigna tarea + Recibe evidencia",
+    description: "Jefatura asigna tarea fitosanitaria/riego → Cuadrilla ejecuta → Sube evidencia fotográfica. Ciclo cerrado.",
   },
 ]
 

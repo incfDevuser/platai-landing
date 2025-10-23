@@ -23,17 +23,17 @@ export function FinalCTASection() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-balance">
-            Conecta tu campo al futuro de la agricultura
+            Transforma tu campo con inteligencia real
           </h2>
 
           <p className="text-xl text-muted-foreground mb-10 text-pretty">
-            Únete a los agricultores que ya están usando inteligencia artificial para proteger sus cultivos y aumentar
-            su producción.
+            Detecta problemas con precisión, optimiza riego con clima real, y cierra el ciclo con tareas + evidencia.
+            Todo desde tu celular y el panel web.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" className="text-base px-8">
-              Solicitar demo
+              Solicitar demo en campo
             </Button>
             <Button size="lg" variant="outline" className="text-base px-8 bg-transparent">
               Contáctanos
@@ -47,17 +47,17 @@ export function FinalCTASection() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
                   />
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
               </div>
-              <span className="text-sm font-medium">Visión IA</span>
+              <span className="text-sm font-medium">GPS Exacto</span>
             </div>
 
             <div className="flex items-center gap-2">
@@ -67,11 +67,11 @@ export function FinalCTASection() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
                   />
                 </svg>
               </div>
-              <span className="text-sm font-medium">Modelos Predictivos</span>
+              <span className="text-sm font-medium">Clima Real</span>
             </div>
           </div>
         </div>

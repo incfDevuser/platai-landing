@@ -10,16 +10,16 @@ export function TestimonialSection() {
 
             <div className="relative z-10">
               <p className="text-2xl md:text-3xl font-medium mb-8 text-balance leading-relaxed">
-                "Desde que usamos PlantAI, anticipamos brotes 5 días antes y reducimos pérdidas en 30%. Es como tener un
-                agrónomo experto monitoreando 24/7."
+                "Con PlantIA detectamos el problema exacto con foto y GPS, optimizamos el riego según el clima real,
+                y cerramos el ciclo con tareas y evidencia. Reducimos pérdidas en 40% y ahorramos agua."
               </p>
 
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">FS</span>
+                  <span className="text-2xl font-bold text-primary">AG</span>
                 </div>
                 <div>
-                  <div className="font-semibold">Fundo Santa Laura</div>
+                  <div className="font-semibold">Agrónomo — Fundo San José</div>
                   <div className="text-sm text-muted-foreground">Región del Maule, Chile</div>
                 </div>
               </div>
@@ -29,16 +29,16 @@ export function TestimonialSection() {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-6 mt-12">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
-              <div className="text-sm text-muted-foreground">Hectáreas monitoreadas</div>
+              <div className="text-3xl font-bold text-primary mb-2">40%</div>
+              <div className="text-sm text-muted-foreground">Reducción pérdidas + gasto</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">95%</div>
-              <div className="text-sm text-muted-foreground">Precisión en detección</div>
+              <div className="text-3xl font-bold text-primary mb-2">GPS</div>
+              <div className="text-sm text-muted-foreground">Ubicación exacta</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2">30%</div>
-              <div className="text-sm text-muted-foreground">Reducción de pérdidas</div>
+              <div className="text-sm text-muted-foreground">Ahorro en riego</div>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/hero-section";
 import { ExplanationSection } from "@/components/explanation-section";
+import { RolesSection } from "@/components/roles-section";
 import { BenefitsSection } from "@/components/benefits-section";
 import { HowItWorksSection } from "@/components/how-it-works-section";
 import { DemoSection } from "@/components/demo-section";
@@ -16,12 +17,14 @@ export default function Page() {
       <Navigation />
       <HeroSection />
       <ExplanationSection />
+      <RolesSection />
       <BenefitsSection />
       <HowItWorksSection />
       <DemoSection />
       <DemoSectionStep2 />
       <DemoSectionStep3 />
       <TestimonialSection />
+      <PricingSection />
       <FinalCTASection />
       <Footer />
     </main>

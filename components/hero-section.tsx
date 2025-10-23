@@ -19,13 +19,13 @@ export function HeroSection() {
       </div>
       <div className="container relative z-10 mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-          Tus cultivos hablan.
+          Detecta antes, actúa mejor
           <br />
-          <span className="text-primary">Nosotros los escuchamos.</span>
+          <span className="text-primary">con diagnóstico en el punto exacto</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty">
-          IA que detecta enfermedades, predice problemas y recomienda acciones
-          para mantener tus cultivos sanos.
+          IA que detecta enfermedades con precisión, optimiza tu riego según clima real,
+          y te guía al cultivo crítico con foto y ubicación exacta.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="text-base px-8">
@@ -42,21 +42,21 @@ export function HeroSection() {
         </div>
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-6">
-            <div className="text-3xl font-bold text-primary mb-2">5 días</div>
+            <div className="text-3xl font-bold text-primary mb-2">40%</div>
             <div className="text-sm text-muted-foreground">
-              Anticipación de enfermedades
+              Reducción en pérdidas y gasto
             </div>
           </div>
           <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-6">
-            <div className="text-3xl font-bold text-primary mb-2">30%</div>
+            <div className="text-3xl font-bold text-primary mb-2">GPS</div>
             <div className="text-sm text-muted-foreground">
-              Reducción de pérdidas
+              Ubicación exacta del problema
             </div>
           </div>
           <div className="bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg p-6">
             <div className="text-3xl font-bold text-primary mb-2">24/7</div>
             <div className="text-sm text-muted-foreground">
-              Monitoreo continuo
+              Conectado a clima real
             </div>
           </div>
         </div>

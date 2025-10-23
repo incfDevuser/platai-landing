@@ -7,13 +7,13 @@ export function DemoSectionStep2() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
-              Diagnóstico <span className="text-primary">Inteligente</span> en
-              Campo
+              Diagnóstico <span className="text-primary">con IA</span> +
+              Recomendación
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Una foto = diagnóstico instant áneo + plan de acción. Identifica
-              enfermedades con 95% de precisión y recibe recomendaciones
-              específicas.
+              Escanea el fruto o hoja con la app móvil. La IA analiza, entrega
+              diagnóstico con nivel de severidad y recomienda acción
+              fitosanitaria específica.
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -22,11 +22,11 @@ export function DemoSectionStep2() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-lg">
-                    Recibe alerta automática
+                    Escanea con el celular
                   </h4>
                   <p className="text-muted-foreground">
-                    Te avisamos cuando detectamos cambios sospechosos. Ve
-                    directo al punto exacto del problema.
+                    Cuadrilla ve fruto/hoja sospechoso → Abre app → Saca foto →
+                    IA analiza en 3 segundos.
                   </p>
                 </div>
               </div>
@@ -36,15 +36,15 @@ export function DemoSectionStep2() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-lg">
-                    Escanea y obtén diagnóstico
+                    Diagnóstico + Severidad
                   </h4>
                   <p className="text-muted-foreground mb-2">
-                    Apunta la cámara a la hoja o fruto. IA analiza y diagnostica
-                    en segundos.
+                    IA entrega diagnóstico específico con nivel de confianza y
+                    severidad (baja/media/alta).
                   </p>
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-                    <p className="text-green-800 font-medium text-sm">
-                      ✓ "Botrytis detectada con 92% de confianza"
+                  <div className="bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-800 rounded-lg p-3">
+                    <p className="text-green-800 dark:text-green-300 font-medium text-sm">
+                      ✓ "Botrytis detectada — Severidad: Alta — 94% confianza"
                     </p>
                   </div>
                 </div>
@@ -55,16 +55,16 @@ export function DemoSectionStep2() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-lg">
-                    Recibe plan de acción
+                    Recomendación agronómica
                   </h4>
                   <p className="text-muted-foreground mb-2">
-                    Te decimos exactamente qué aplicar, cuándo y bajo qué
-                    condiciones climáticas.
+                    IA recomienda producto, dosis, momento de aplicación y
+                    condiciones climáticas ideales.
                   </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
-                    <p className="text-blue-800 font-medium text-sm">
-                      💡 "Aplica fungicida X en las próximas 48h si la humedad
-                      supera 70%"
+                  <div className="bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 rounded-lg p-3">
+                    <p className="text-blue-800 dark:text-blue-300 font-medium text-sm">
+                      💡 "Aplicar fungicida Switch® 1.0 kg/ha en próximas 24h,
+                      T° bajo 25°C"
                     </p>
                   </div>
                 </div>
@@ -75,11 +75,11 @@ export function DemoSectionStep2() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-lg">
-                    Aprende contigo
+                    Agrónomo valida
                   </h4>
                   <p className="text-muted-foreground">
-                    Cada confirmación mejora la precisión. Mientras más uses
-                    PlantAI, más inteligente se vuelve.
+                    Alerta llega a agrónomo → Revisa diagnóstico y foto → Confirma
+                    o ajusta recomendación según criterio experto.
                   </p>
                 </div>
               </div>
@@ -89,7 +89,7 @@ export function DemoSectionStep2() {
             <div className="bg-card border border-border rounded-2xl p-6 shadow-2xl">
               <img
                 src="/plantaScan.png"
-                alt="PlantAI Field Map"
+                alt="PlantIA Scan"
                 className="w-full rounded-lg"
               />
             </div>

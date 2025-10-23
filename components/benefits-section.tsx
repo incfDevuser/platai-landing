@@ -1,25 +1,25 @@
-import { Thermometer, Bot, Droplets, FileText } from "lucide-react"
+import { MapPin, Camera, Droplets, FileCheck } from "lucide-react"
 
 const benefits = [
   {
-    icon: Thermometer,
-    title: "Monitorea tu campo en tiempo real",
-    description: "Sensores IoT que capturan datos de temperatura, humedad y salud vegetal las 24 horas.",
+    icon: Camera,
+    title: "Detecta enfermedades con precisión",
+    description: "Escanea frutos con tu celular. IA detecta problemas, entrega diagnóstico, severidad y recomendación específica.",
   },
   {
-    icon: Bot,
-    title: "Detecta enfermedades antes de que aparezcan",
-    description: "IA predictiva que identifica patrones de estrés y enfermedades días antes de los síntomas visibles.",
+    icon: MapPin,
+    title: "Ubicación GPS exacta del problema",
+    description: "Cada detección se registra con foto + GPS. Dirígete al cultivo crítico sin pérdida de tiempo.",
   },
   {
     icon: Droplets,
-    title: "Optimiza riego y nutrientes",
-    description: "Recomendaciones precisas basadas en las necesidades reales de tus plantas.",
+    title: "Riego inteligente conectado al clima",
+    description: "Conectado a estación meteorológica, te dice cómo, cuándo y cuántas horas regar según especie, variedad y clima real.",
   },
   {
-    icon: FileText,
-    title: "Registra y reporta automáticamente",
-    description: "Documentación completa de tu campo con reportes automáticos y trazabilidad total.",
+    icon: FileCheck,
+    title: "Tareas + Evidencia completa",
+    description: "Asigna tareas a cuadrillas, recibe evidencia fotográfica y cierra el ciclo con trazabilidad total.",
   },
 ]
 

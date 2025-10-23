@@ -5,15 +5,18 @@ export function ExplanationSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
-              ¿Qué es <span className="text-primary">PlantAI</span>?
+              ¿Qué es <span className="text-primary">PlantIA</span>?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              PlantAI combina visión por computadora y modelos predictivos para detectar enfermedades y estrés vegetal
-              mediante escaneo móvil de tus cultivos.
+              PlantIA es tu asistente agronómico digital que detecta problemas en frutos con precisión,
+              te entrega diagnóstico y recomendación, y te lleva directo al cultivo crítico con foto y ubicación GPS.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              Además, conectado a estaciones meteorológicas, calcula cómo y cuándo regar según especie, variedad,
+              frecuencia y tiempo óptimo. Todo documentado con tareas y evidencia.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nuestra plataforma traduce las señales de tus cultivos en información útil y accionable, permitiéndote
-              tomar decisiones informadas para proteger tus cultivos y maximizar tu producción.
+              <strong>Objetivo:</strong> reducir pérdidas y gasto detectando antes, cerrando el ciclo con tareas + evidencia.
             </p>
           </div>
           <div className="relative">
